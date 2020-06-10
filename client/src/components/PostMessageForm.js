@@ -45,7 +45,7 @@ const PostMessageForm = ({ classes, ...props }) => {
             })
             setErrors({})
         }
-    }, [props.currentId, props.postMessageList, setErrors, setValues])
+    }, [props.currentId])
 
     const validate = () => {
         let temp = { ...errors }
